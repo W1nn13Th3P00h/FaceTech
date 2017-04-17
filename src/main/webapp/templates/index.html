@@ -94,7 +94,7 @@
                     <div class="panel-footer">
                         <!--/*@thymesVar id="username" type="String"*/-->
                         <a onclick="like(this);" th:id="${post.id}" th:href="@{'#' + ${post.id}}">
-                            <i class="fa fa-heart"></i></a> -
+                            <i class="fa fa-heart">Like</i></a> -
 
                         <span th:text="${post.getLikes().size()}"></span> <i class="fa fa-heart"></i> -  <span th:text="${post.getComments().size()}"></span> <i class="fa fa-comments"></i>
                         <hr/>
