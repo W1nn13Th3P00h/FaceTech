@@ -1,0 +1,1 @@
+web: java -jar target/FaceTech-1.0.jar --server.port=$PORT --spring.profiles.active=DEV
